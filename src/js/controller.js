@@ -130,3 +130,5 @@ const init = function () {
   console.log('welcome');
 };
 init();
+
+console.log('hero');
