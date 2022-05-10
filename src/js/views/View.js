@@ -27,6 +27,7 @@ export default class View {
 
   update(data) {
     this._data = data;
+    console.log(data);
     const newMarkup = this._generateMarkup();
 
     const newDOM = document.createRange().createContextualFragment(newMarkup);
